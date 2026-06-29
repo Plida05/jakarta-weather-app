@@ -1,29 +1,92 @@
-# Aplikasi Data Cuaca Jakarta
+# 🌤 Jakarta Weather App
 
-Tugas praktikum pemrograman web — menampilkan prakiraan cuaca Jakarta dari API Open-Meteo menggunakan HTML, CSS, dan JavaScript.
+A simple web application that displays Jakarta's weather forecast using the Open-Meteo API.
 
-## Cara Menjalankan
+This project was developed as part of a Web Programming practical assignment to practice API integration using HTML, CSS, and JavaScript.
 
-1. Download atau clone repository ini
-2. Buka `index.html` di browser
+---
 
-> Atau pakai ekstensi **Live Server** di VS Code.
+## 📸 Preview
 
-## Teknologi
+> Screenshot will be added soon.
 
-- HTML, CSS, JavaScript
-- [Open-Meteo API](https://api.open-meteo.com/v1/forecast?latitude=-6.2&longitude=106.8&hourly=temperature_2m)
+---
 
-## Struktur File
+## ✨ Features
+
+- 🌡 Display Jakarta weather forecast
+- 🕒 Show date and time in Indonesian format
+- 📋 Display weather data in a table
+- ⚡ Fetch real-time data using REST API
+- 💻 Simple and responsive interface
+
+---
+
+## 🛠 Tech Stack
+
+| Technology | Purpose |
+|-----------|---------|
+| HTML | Structure |
+| CSS | Styling |
+| JavaScript | Logic & API Integration |
+| Open-Meteo API | Weather Data |
+
+---
+
+## 🚀 Getting Started
+
+Clone this repository
+
+```bash
+git clone https://github.com/USERNAME/praktikum-cuaca.git
+```
+
+Open the project
+
+```text
+index.html
+```
+
+or use **Live Server** in Visual Studio Code.
+
+---
+
+## 📂 Project Structure
+
+```text
 praktikum-cuaca/
 ├── index.html
 ├── style.css
 └── script.js
+```
 
-## Cara Kerja
+---
 
-`fetch()` mengambil data JSON dari Open-Meteo secara async. Data waktu dan suhu dari `hourly` lalu diproses JavaScript dan ditulis ke tabel HTML lewat perulangan `for`. Hanya 10 data pertama yang ditampilkan, dengan format waktu dikonversi ke format Indonesia — contoh: `18 Mei 2026 | 00.00 WIB`.
+## ⚙️ How It Works
 
+1. The application requests weather data from the Open-Meteo API using `fetch()`.
+2. The API returns weather information in JSON format.
+3. JavaScript processes the response and extracts hourly temperature data.
+4. The first 10 weather records are displayed in a table.
+5. Date and time are formatted into Indonesian locale for better readability.
 
-**Nama:** [Rr Nabila Fatharani Yuwvrida]  
-**NIM:** [050170901]
+---
+
+## 🎯 Learning Objectives
+
+This project was created to practice:
+
+- REST API Integration
+- Fetch API
+- Asynchronous JavaScript
+- JSON Processing
+- DOM Manipulation
+- Dynamic HTML Table
+
+---
+
+## 👩‍💻 Author
+
+**Rr Nabila Fatharani Yuwvrida**
+
+Information Systems Student
