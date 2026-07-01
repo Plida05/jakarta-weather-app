@@ -8,7 +8,9 @@ This project was developed as part of a Web Programming practical assignment to 
 
 ## 📸 Preview
 
-> Screenshot will be added soon.
+![Page 1](Asset/jakarta-app.png)
+
+![Page 2](Asset/jakarta-app-2.png)
 
 ---
 
